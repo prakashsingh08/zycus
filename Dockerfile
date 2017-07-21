@@ -16,5 +16,5 @@ ADD tomcat8.tar.gz /opt/soft/
 
 WORKDIR /opt/soft/tomcat8/bin
 
-EXPOSE 7080
+EXPOSE 8080
 CMD ["catalina.sh", "run"]

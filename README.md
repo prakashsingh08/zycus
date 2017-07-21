@@ -7,11 +7,11 @@ que:Write the command to run the Dockerfile such that once the container boots, 
 solution:     "dockdr run -d -p 7080:8080  <image_name>"
 
 
-explainnation: it will expose containers internal port 8080 to outside(host) port 7080. now we can access tomact in host at port 7080
+explaination: it will expose containers internal port 8080 to outside(host) port 7080. now we can access tomact in host at port 7080
 
 
 assigment2: script written named as login.sh
-
+explaination:  run script like this "sh login.sh 192.168.0.51,192.168.0.56"
 
 
 
